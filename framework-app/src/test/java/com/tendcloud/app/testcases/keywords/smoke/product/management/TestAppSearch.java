@@ -15,8 +15,8 @@ public class TestAppSearch extends AATestBase{
 	@Test(groups=TestGroups.SMOKE)
 //	@TestDoc(testCaseID="T497088", testObjective="测试应用的查询功能：精确查询 + 模糊查询 + 无符合条件的记录...")
 	public void testAppSearch() throws Exception{
-		String file = "d:/testAppSearch.xlsx";
-		
+		//String file = "d:/testAppSearch.xlsx";
+		String file = "应用概览/testCreateApps.xlsx";
 		new ExecutionEngine(file, BaseKeywords.class);
 	}
 }

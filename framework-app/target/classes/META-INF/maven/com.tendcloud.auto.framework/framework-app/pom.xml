@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.tendcloud.auto.framework</groupId>
+		<artifactId>framework-parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<!-- <groupId>com.tendcloud.auto.framework</groupId> -->
+	<artifactId>framework-app</artifactId>
+
+	<properties>
+		<!-- Configurable variables -->
+		<threads>1</threads>
+		<browser>firefox</browser>
+		<profile></profile>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.tendcloud.auto.framework</groupId>
+			<artifactId>framework-base</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<!-- selenium jars -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-remote-driver</artifactId>
+		</dependency>
+		<!-- Browsers drivers -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-firefox-driver</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-chrome-driver</artifactId>
+		</dependency>
+		<!-- 测试和日志组件 -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-1.2-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>commons-httpclient</groupId>
+			<artifactId>commons-httpclient</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>2.6</version>
+		</dependency>
+		<!-- 引入API测试框架的Jar <dependency> <groupId>com.tendcloud.auto.framework</groupId> 
+			<artifactId>framework-test-api</artifactId> <version>0.0.1-SNAPSHOT</version> 
+			</dependency> -->
+		<!-- <dependency> <groupId>com.tendcloud.auto.framework</groupId> <artifactId>framework-test-api-base</artifactId> 
+			<version>0.0.1-SNAPSHOT</version> </dependency> -->
+
+
+		<!-- <dependency> <groupId>com.onecool</groupId> <artifactId>compiler</artifactId> 
+			</dependency> -->
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<dependencies>
+					<!-- https://mvnrepository.com/artifact/org.apache.maven.shared/maven-filtering -->
+					<dependency>
+						<groupId>org.apache.maven.shared</groupId>
+						<artifactId>maven-filtering</artifactId>
+						<version>3.1.1</version>
+					</dependency>
+				</dependencies>
+				<executions>
+					<execution>
+						<id>copy-resources</id>
+						<phase>process-resources</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${basedir}/target/</outputDirectory>
+							<resources>
+								<resource>
+									<directory>src/test/resources/</directory>
+									<filtering>true</filtering>
+								</resource>
+								<resource>
+									<directory>src/main/resources/</directory>
+									<filtering>true</filtering>
+								</resource>
+							</resources>
+							<!-- maven打包时如何去除不需要转码的资源文件 -->
+							<nonFilteredFileExtensions>
+								<nonFilteredFileExtension>xls</nonFilteredFileExtension>
+								<nonFilteredFileExtension>xlsx</nonFilteredFileExtension>
+							</nonFilteredFileExtensions>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+			<!-- <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-surefire-plugin</artifactId> 
+				<version>2.18.1</version> <version>2.21.0</version> <configuration> Suite 
+				testng xml file to consider for test execution <properties> <property> <name>listener</name> 
+				<value>framework.webdriver.TestNGListener</value> </property> <suiteXmlFiles> 
+				<suiteXmlFile>testng.xml</suiteXmlFile> </suiteXmlFiles> </properties> </configuration> 
+				</plugin> -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<!-- Unit test plugin -->
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<systemPropertyVariables>
+						<property>
+							<name>profile</name>
+							<value>${profile}</value>
+						</property>
+					</systemPropertyVariables>
+					<!-- 单元测试插件中，只包含unit相关的测试用例 -->
+					<includes>
+						<include>smoke-test-testng.xml</include>
+					</includes>
+					<!-- 单元测试插件中，只包含unit相关的测试用例，排除集成测试的测试用例 -->
+					<excludes>
+						<exclude>regression-test-testng.xml</exclude>
+						<exclude>smoke-test-testng.xml</exclude>
+					</excludes>
+					<suiteXmlFiles>
+							<suiteXmlFile>testng.xml</suiteXmlFile>
+
+						</suiteXmlFiles>
+					<properties>
+						
+						<property>
+							<name>usedefaultlisteners</name>
+							<value>false</value>
+							<!-- disable default listeners is optional -->
+						</property>
+						<property>
+							<!-- 加载 framework-base 中的 TestNGListener(注意，这里加载的是Base框架中的Listener) -->
+							<name>listener</name>
+							<value>framework.webdriver.TestNGListener</value>
+						</property>
+					</properties>
+					<!-- 禁用TestNG的报告 -->
+					<disableXmlReport>true</disableXmlReport>
+					<!-- 有失败测试时忽略，不影响最终的build -->
+					<testFailureIgnore>true</testFailureIgnore>
+					<!-- 报告生成在target下 -->
+					<workingDirectory>target/</workingDirectory>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<!-- Integration Test Plugin -->
+				<artifactId>maven-failsafe-plugin</artifactId>
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+					<systemPropertyVariables>
+						<property>
+							<name>profile</name>
+							<value>${profile}</value>
+						</property>
+					</systemPropertyVariables>
+
+					<parallel>methods</parallel>
+					<threadCount>${threads}</threadCount>
+					<systemProperties>
+						<browser>${browser}</browser>
+					</systemProperties>
+					<includes>
+						<include>**/Test*.java</include>
+						<include></include>
+					</includes>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>integration-test</goal>
+							<goal>verify</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<executions>
+					<execution>
+						<phase>clean</phase>
+						<goals>
+							<goal>compile</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

@@ -1,5 +1,0 @@
--------------------------------------------------------------------------------
-Test set: TestSuite
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 10.018 s <<< FAILURE! - in TestSuite
-testAppSearch(com.tendcloud.app.testcases.keywords.smoke.product.management.TestAppSearch)  Time elapsed: 3.341 s  <<< FAILURE!

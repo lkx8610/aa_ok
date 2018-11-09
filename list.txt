@@ -1,0 +1,123 @@
+[INFO] Scanning for projects...1
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.tendcloud.auto.framework:framework-adt:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ com.tendcloud.auto.framework:framework-adt:[unknown-version], E:\ADT_AutoFramework\framework-parent\framework-adt\pom.xml, line 192, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] framework-parent
+[INFO] framework-base
+[INFO] framework-adt
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building framework-parent 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ framework-parent ---
+[INFO] com.tendcloud.auto.framework:framework-parent:pom:0.0.1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building framework-base 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ framework-base ---
+[WARNING] The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+[INFO] com.tendcloud.auto.framework:framework-base:jar:0.0.1-SNAPSHOT
+[INFO] +- org.apache.poi:poi:jar:3.16:compile
+[INFO] |  +- commons-codec:commons-codec:jar:1.10:compile
+[INFO] |  \- org.apache.commons:commons-collections4:jar:4.1:compile
+[INFO] +- org.apache.poi:poi-ooxml-schemas:jar:3.16:compile
+[INFO] |  \- org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile
+[INFO] |     \- stax:stax-api:jar:1.0.1:compile
+[INFO] +- org.apache.poi:poi-ooxml:jar:3.16:compile
+[INFO] |  \- com.github.virtuald:curvesapi:jar:1.04:compile
+[INFO] +- commons-dbutils:commons-dbutils:jar:1.7:compile
+[INFO] +- org.testng:testng:jar:6.14.2:compile
+[INFO] |  +- com.beust:jcommander:jar:1.72:compile
+[INFO] |  \- org.apache-extras.beanshell:bsh:jar:2.0b6:compile
+[INFO] +- log4j:log4j:jar:1.2.9:provided
+[INFO] +- org.apache.logging.log4j:log4j-1.2-api:jar:2.10.0:provided
+[INFO] |  +- org.apache.logging.log4j:log4j-api:jar:2.10.0:provided
+[INFO] |  \- org.apache.logging.log4j:log4j-core:jar:2.10.0:provided
+[INFO] +- commons-io:commons-io:jar:1.3.2:compile
+[INFO] +- org.apache.commons:commons-lang3:jar:3.7:compile
+[INFO] +- dom4j:dom4j:jar:1.6.1:compile
+[INFO] |  \- xml-apis:xml-apis:jar:1.0.b2:compile
+[INFO] \- jaxen:jaxen:jar:1.1.6:compile
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building framework-adt 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ framework-adt ---
+[WARNING] The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+[INFO] com.tendcloud.auto.framework:framework-adt:jar:0.0.1-SNAPSHOT
+[INFO] +- com.tendcloud.auto.framework:framework-base:jar:0.0.1-SNAPSHOT:compile
+[INFO] |  +- org.apache.poi:poi:jar:3.16:compile
+[INFO] |  |  \- org.apache.commons:commons-collections4:jar:4.1:compile
+[INFO] |  +- org.apache.poi:poi-ooxml-schemas:jar:3.16:compile
+[INFO] |  |  \- org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile
+[INFO] |  |     \- stax:stax-api:jar:1.0.1:compile
+[INFO] |  +- org.apache.poi:poi-ooxml:jar:3.16:compile
+[INFO] |  |  \- com.github.virtuald:curvesapi:jar:1.04:compile
+[INFO] |  +- commons-dbutils:commons-dbutils:jar:1.7:compile
+[INFO] |  +- dom4j:dom4j:jar:1.6.1:compile
+[INFO] |  |  \- xml-apis:xml-apis:jar:1.0.b2:compile
+[INFO] |  \- jaxen:jaxen:jar:1.1.6:compile
+[INFO] +- org.seleniumhq.selenium:selenium-java:jar:3.12.0:compile
+[INFO] |  +- org.seleniumhq.selenium:selenium-api:jar:3.12.0:compile
+[INFO] |  +- org.seleniumhq.selenium:selenium-edge-driver:jar:3.12.0:compile
+[INFO] |  +- org.seleniumhq.selenium:selenium-ie-driver:jar:3.12.0:compile
+[INFO] |  +- org.seleniumhq.selenium:selenium-opera-driver:jar:3.12.0:compile
+[INFO] |  +- org.seleniumhq.selenium:selenium-safari-driver:jar:3.12.0:compile
+[INFO] |  +- org.seleniumhq.selenium:selenium-support:jar:3.12.0:compile
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.8.3:compile
+[INFO] |  +- org.apache.commons:commons-exec:jar:1.3:compile
+[INFO] |  +- commons-codec:commons-codec:jar:1.10:compile
+[INFO] |  +- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |  +- com.google.code.gson:gson:jar:2.8.2:compile
+[INFO] |  +- com.google.guava:guava:jar:23.6-jre:compile
+[INFO] |  |  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+[INFO] |  |  +- org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+[INFO] |  |  +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+[INFO] |  |  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+[INFO] |  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+[INFO] |  +- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+[INFO] |  +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+[INFO] |  +- com.squareup.okhttp3:okhttp:jar:3.9.1:compile
+[INFO] |  \- com.squareup.okio:okio:jar:1.13.0:compile
+[INFO] +- org.seleniumhq.selenium:selenium-remote-driver:jar:3.12.0:compile
+[INFO] +- org.seleniumhq.selenium:selenium-firefox-driver:jar:3.12.0:compile
+[INFO] +- org.seleniumhq.selenium:selenium-chrome-driver:jar:3.12.0:compile
+[INFO] +- org.testng:testng:jar:6.14.2:compile
+[INFO] |  +- com.beust:jcommander:jar:1.72:compile
+[INFO] |  \- org.apache-extras.beanshell:bsh:jar:2.0b6:compile
+[INFO] +- log4j:log4j:jar:1.2.9:compile
+[INFO] +- org.apache.logging.log4j:log4j-1.2-api:jar:2.10.0:compile
+[INFO] |  +- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+[INFO] |  \- org.apache.logging.log4j:log4j-core:jar:2.10.0:compile
+[INFO] +- commons-io:commons-io:jar:1.3.2:compile
+[INFO] +- org.apache.commons:commons-lang3:jar:3.7:compile
+[INFO] +- commons-httpclient:commons-httpclient:jar:3.1:compile
+[INFO] +- commons-lang:commons-lang:jar:2.6:compile
+[INFO] \- com.onecool:compiler:jar:1.0:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] framework-parent ................................... SUCCESS [  0.965 s]
+[INFO] framework-base ..................................... SUCCESS [  0.189 s]
+[INFO] framework-adt ...................................... SUCCESS [  0.212 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.678 s
+[INFO] Finished at: 2018-07-20T07:27:55+08:00
+[INFO] Final Memory: 14M/227M
+[INFO] ------------------------------------------------------------------------

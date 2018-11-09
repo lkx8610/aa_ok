@@ -1,0 +1,13 @@
+对表格进行排序的实现步骤：
+
+第一：下载sorttable.js，链接：http://www.kryogenix.org/code/browser/sorttable/，（不需要jquery.js）
+
+第二：导入该sorttable.js，（不需要jquery.js）
+
+第三：导入：在 table标签添加一个class="sortable"。
+
+至此，即可实现正反序的排列
+
+如果想不对某列排序，只要在此列的<th>标签加上class="sorttable_nosort"即可。
+
+注意：不支持分页

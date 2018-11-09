@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.tendcloud.auto.framework</groupId>
+	<artifactId>framework-parent</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>framework-parent</name>
+	<url>http://maven.apache.org</url>
+
+	<modules>
+		<module>framework-base</module>
+		<module>framework-adt</module>   
+		<module>framework-aa</module>
+   		<module>framework-app</module>
+  </modules>
+
+	<properties> 
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<selenium.version>3.12.0</selenium.version>
+		<!-- <selenium.server.standlone.version>2.53.0</selenium.server.standlone.version> -->
+		<poi.version>3.16</poi.version>
+		<dbutils.version>1.7</dbutils.version>
+		<testng.version>6.14.2</testng.version>
+		<log4j.version>1.2.9</log4j.version>
+		<log4j.api.version>2.10.0</log4j.api.version>
+		<commons.io.version>1.3.2</commons.io.version>
+		<common.lang3.version>3.7</common.lang3.version>
+		<dom4j.version>1.6.1</dom4j.version>
+		<jaxen.version>1.1.6</jaxen.version>
+		<qdox.version>1.12.1</qdox.version>
+		<reportng.version>1.1.4</reportng.version>
+		<guice.version>4.0</guice.version>
+		<surefire.plugin.version>2.21.0</surefire.plugin.version>
+		<compiler.plugin.version>3.2</compiler.plugin.version>
+		<source.code.version>1.8</source.code.version>
+		<target.code.version>1.8</target.code.version>
+		<maven.resources.plugin>3.0.1</maven.resources.plugin>
+		<maven.shared.filtering.version>3.1.1</maven.shared.filtering.version>
+		<httpclient.version>3.1</httpclient.version>
+		<failsafe.plugin.version>2.21.0</failsafe.plugin.version>
+		<thread>1</thread>
+		<browser>chrome</browser>
+		<!--动�?�生成类的自定义类： 在关键字驱动中，读取Excel中的测试用例后，把每个Sheet当成�?条单独的Case来运行，以生成单独的报告 -->
+		<memory.copliler.version>1.0</memory.copliler.version>
+		<!-- 接口框架  -->
+		<api.framework.version>1.0.0</api.framework.version>
+	</properties>
+	
+	<dependencyManagement>
+		<dependencies>
+			<!-- selenium jars -->
+			<dependency>
+				<groupId>org.seleniumhq.selenium</groupId>
+				<artifactId>selenium-java</artifactId>
+				<version>${selenium.version}</version>
+				<!-- <scope>test</scope> -->
+			</dependency>
+			<dependency>
+				<groupId>org.seleniumhq.selenium</groupId>
+				<artifactId>selenium-remote-driver</artifactId>
+				<version>${selenium.version}</version>
+			</dependency>
+			<!-- Browsers drivers -->
+			<dependency>
+				<groupId>org.seleniumhq.selenium</groupId>
+				<artifactId>selenium-firefox-driver</artifactId>
+				<version>${selenium.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.seleniumhq.selenium</groupId>
+				<artifactId>selenium-chrome-driver</artifactId>
+				<version>${selenium.version}</version>
+			</dependency>
+			<!-- <dependency> <groupId>org.seleniumhq.selenium</groupId> <artifactId>selenium-server-standalone</artifactId> 
+				<version>${selenium.server.standlone.version}</version> </dependency> -->
+
+			<!-- poi 系列组件�? -->
+			<dependency>
+				<groupId>org.apache.poi</groupId>
+				<artifactId>poi</artifactId>
+				<version>${poi.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.poi</groupId>
+				<artifactId>poi-ooxml-schemas</artifactId>
+				<version>${poi.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.poi</groupId>
+				<artifactId>poi-ooxml</artifactId>
+				<version>${poi.version}</version>
+			</dependency>
+			<!-- DBUtils组件�? -->
+			<dependency>
+				<groupId>commons-dbutils</groupId>
+				<artifactId>commons-dbutils</artifactId>
+				<version>${dbutils.version}</version>
+			</dependency>
+			<!-- 测试和日志组�? -->
+			<dependency>
+				<groupId>org.testng</groupId>
+				<artifactId>testng</artifactId>
+				<version>${testng.version}</version>
+				<!-- <scope>test</scope> -->
+			</dependency>
+			<dependency>
+				<groupId>log4j</groupId>
+				<artifactId>log4j</artifactId>
+				<version>${log4j.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.logging.log4j</groupId>
+				<artifactId>log4j-1.2-api</artifactId>
+				<version>${log4j.api.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>commons-io</groupId>
+				<artifactId>commons-io</artifactId>
+				<version>${commons.io.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-lang3</artifactId>
+				<version>${common.lang3.version}</version>
+			</dependency>
+			<!-- dom4j -->
+			<dependency>
+				<groupId>dom4j</groupId>
+				<artifactId>dom4j</artifactId>
+				<version>${dom4j.version}</version>
+			</dependency>
+			<!-- 利用xPath解析XML�?依赖的包 https://mvnrepository.com/artifact/jaxen/jaxen -->
+			<dependency>
+				<groupId>jaxen</groupId>
+				<artifactId>jaxen</artifactId>
+				<version>${jaxen.version}</version>
+			</dependency>
+			<!-- <dependency> <groupId>net.lightbody.bmp</groupId> <artifactId>browsermob-proxy</artifactId> 
+				<version>2.0.0</version> </dependency> -->
+			<!-- QDox is a high speed, small footprint parser for extracting class/interface/method 
+				definitions from source files complete with JavaDoc @tags. It is designed 
+				to be used by active code generators or documentation tools -->
+			<!-- <dependency> <groupId>com.thoughtworks.qdox</groupId> <artifactId>qdox</artifactId> 
+				<version>${qdox.version}</version> </dependency> -->
+			<!-- RportNG -->
+			<dependency>
+				<groupId>org.uncommons</groupId>
+				<artifactId>reportng</artifactId>
+				<version>${reportng.version}</version>
+				<scope>test</scope>
+				<exclusions>
+					<exclusion>
+						<groupId>org.testng</groupId>
+						<artifactId>testng</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
+			<dependency>
+				<groupId>com.google.inject</groupId>
+				<artifactId>guice</artifactId>
+				<version>${guice.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.maven.shared</groupId>
+				<artifactId>maven-filtering</artifactId>
+				<version>${maven.shared.filtering.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.tendcloud.auto.framework.base</groupId>
+				<artifactId>base-framework</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+			<!-- commons-httpclient -->
+			<dependency>
+				<groupId>commons-httpclient</groupId>
+				<artifactId>commons-httpclient</artifactId>
+				<version>${httpclient.version}</version>
+			</dependency>
+			
+			<!-- 动�?�生成内存类的自定义包，用在关键字驱动中 -->
+			<dependency>
+				<groupId>com.onecool</groupId>
+				<artifactId>compiler</artifactId>
+				<version>${memory.copliler.version}</version>
+			</dependency>
+		
+			<dependency>
+				<groupId>com.tendcloud.auto.framework</groupId>
+			    <artifactId>framework-api-base</artifactId>
+			    <version>${api.framework.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>${surefire.plugin.version}</version>
+					<configuration>
+						<properties>
+							<suiteXmlFiles>
+								<suiteXmlFile>testng.xml</suiteXmlFile>
+							</suiteXmlFiles>
+							<!-- TestNG test can accept parameters with the @Parameters annotation. 
+								You can also pass parameters from Maven into your TestNG test -->
+							<systemPropertyVariables>
+								<propertyName>chrome</propertyName>
+							</systemPropertyVariables>
+						</properties>
+						<!-- 报告生成在target�? -->
+						<workingDirectory>target/</workingDirectory>
+					</configuration>
+				</plugin>
+
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<!-- Integration test plugin -->
+					<artifactId>maven-failsafe-plugin</artifactId>
+					<version>${failsafe.plugin.version}</version>
+					<configuration>
+						<parallel>methods</parallel>
+						<threadCount>${threads}</threadCount>
+						<systemProperties>
+							<browser>${browser}</browser>
+						</systemProperties>
+						<includes>
+							<include>**/Test*.java</include>
+						</includes>
+					</configuration>
+					<executions>
+						<execution>
+							<goals>
+								<goal>integration-test</goal>
+								<goal>verify</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-resources-plugin</artifactId>
+					<version>${maven.resources.plugin}</version>
+					<executions>
+						<execution>
+							<id>copy-resources</id>
+							<phase>process-resources</phase>
+							<goals>
+								<goal>copy-resources</goal>
+							</goals>
+							<configuration>
+								<outputDirectory>${basedir}/target/</outputDirectory>
+								<resources>
+									<resource>
+										<directory>src/test/resources/</directory>
+										<filtering>true</filtering>
+									</resource>
+								</resources>
+							</configuration>
+						</execution>
+					</executions>
+				</plugin>
+				<!--利用compiler插件设置编译和运行的JDK版本,Maven默认的是1.5，不支持菱形语法 -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>${compiler.plugin.version}</version>
+					<configuration>
+						<source>${source.code.version}</source>
+						<target>${target.code.version}</target>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+</project>

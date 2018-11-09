@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <listeners>
+  	<listener class-name="webdriver.TestNGListener"></listener>
+  </listeners>
+  <test name="Test">
+  	<groups>
+  		<run>
+  			<!-- <include name="smoke"></include> -->
+  			<!-- <include name="unit"></include> -->
+  			<!-- <include name="regression"></include> -->
+  		</run>
+  	</groups>
+  	<packages>
+  		<!-- <package name="common"></package> -->
+  		<!-- <package name="regression"></package> -->
+  		<!-- <package name="smoke"></package> -->
+  		<!-- <package name="unit"></package> -->
+  	</packages>
+    <classes>
+    	<!-- <class name="regression.TestBasicLogin">
+    		<methods>
+    			<exclude name="testLoginWithTestBase"></exclude>
+    			<include name="testBasicLoginFuc"></include>
+    			<include name="testLoginWithTestBase"></include>
+    		</methods>
+    	</class> -->
+    	<!-- <class name="testcase.keywords.smoke.product.crud.TestAppSearch"></class>
+    	<class name="testcase.keywords.smoke.product.spread.managment.TestCreateSpread"></class> -->
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

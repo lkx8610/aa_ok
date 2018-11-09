@@ -1,0 +1,319 @@
+[DEBUG][2018/11/09 10:36:11287][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:129)]
+Loading local.properties
+ [DEBUG][2018/11/09 10:36:11292][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:131)]
+Loaded local.properties successfully.
+ [DEBUG][2018/11/09 10:36:11292][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+api_testcase_location=
+ [DEBUG][2018/11/09 10:36:11293][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+report.dir=test_reports/
+ [DEBUG][2018/11/09 10:36:11294][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+login.user=18601245439@163.com
+ [DEBUG][2018/11/09 10:36:11294][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+grid.server=
+ [DEBUG][2018/11/09 10:36:11295][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+browser.driver.path=browser-drivers
+ [DEBUG][2018/11/09 10:36:11295][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+logReportFile=DEBUG
+ [DEBUG][2018/11/09 10:36:11296][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+server.login.address=/?backurl=https://www.talkingdata.com&languagetype=zh_cn
+ [DEBUG][2018/11/09 10:36:11297][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+server.base.address=https://account.talkingdata.com
+ [DEBUG][2018/11/09 10:36:11298][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+closeBowserOnEnd=true
+ [DEBUG][2018/11/09 10:36:11298][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+waitDomTimeout=20000
+ [DEBUG][2018/11/09 10:36:11299][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+dataDriven_file_path=
+ [DEBUG][2018/11/09 10:36:11299][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+openTestReportOnEnd=true
+ [DEBUG][2018/11/09 10:36:11300][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+isVerifyServerStateFirst=false
+ [DEBUG][2018/11/09 10:36:11300][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+screenshot.dir=test_reports/screenshots/
+ [DEBUG][2018/11/09 10:36:11301][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+reRunCountOnFailure=2
+ [DEBUG][2018/11/09 10:36:11302][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+waitAjaxTimeout=20000
+ [DEBUG][2018/11/09 10:36:11302][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+login.password=123456
+ [DEBUG][2018/11/09 10:36:11303][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+browser.driver.name=chromedriver.exe
+ [DEBUG][2018/11/09 10:36:11303][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+isMaximizeBrowserWindow=true
+ [DEBUG][2018/11/09 10:36:11303][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+ui_testcase_location=
+ [DEBUG][2018/11/09 10:36:11304][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+browser.type=chrome
+ [DEBUG][2018/11/09 10:36:11304][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+detailedReportLevel=info
+ [DEBUG][2018/11/09 10:36:11709][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:129)]
+Loading local.properties
+ [DEBUG][2018/11/09 10:36:11710][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:131)]
+Loaded local.properties successfully.
+ [DEBUG][2018/11/09 10:36:11710][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+api_testcase_location=
+ [DEBUG][2018/11/09 10:36:11711][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+report.dir=test_reports/
+ [DEBUG][2018/11/09 10:36:11711][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+login.user=18601245439@163.com
+ [DEBUG][2018/11/09 10:36:11712][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+grid.server=
+ [DEBUG][2018/11/09 10:36:11712][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+browser.driver.path=browser-drivers
+ [DEBUG][2018/11/09 10:36:11712][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+logReportFile=DEBUG
+ [DEBUG][2018/11/09 10:36:11713][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+server.login.address=/?backurl=https://www.talkingdata.com&languagetype=zh_cn
+ [DEBUG][2018/11/09 10:36:11713][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+server.base.address=https://account.talkingdata.com
+ [DEBUG][2018/11/09 10:36:11714][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+closeBowserOnEnd=true
+ [DEBUG][2018/11/09 10:36:11715][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+waitDomTimeout=20000
+ [DEBUG][2018/11/09 10:36:11715][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+dataDriven_file_path=
+ [DEBUG][2018/11/09 10:36:11716][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+openTestReportOnEnd=true
+ [DEBUG][2018/11/09 10:36:11716][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+isVerifyServerStateFirst=false
+ [DEBUG][2018/11/09 10:36:11716][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+screenshot.dir=test_reports/screenshots/
+ [DEBUG][2018/11/09 10:36:11717][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+reRunCountOnFailure=2
+ [DEBUG][2018/11/09 10:36:11717][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+waitAjaxTimeout=20000
+ [DEBUG][2018/11/09 10:36:11718][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+login.password=123456
+ [DEBUG][2018/11/09 10:36:11718][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+browser.driver.name=chromedriver.exe
+ [DEBUG][2018/11/09 10:36:11719][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+isMaximizeBrowserWindow=true
+ [DEBUG][2018/11/09 10:36:11719][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+ui_testcase_location=
+ [DEBUG][2018/11/09 10:36:11719][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+browser.type=chrome
+ [DEBUG][2018/11/09 10:36:11720][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+detailedReportLevel=info
+ [INFO ][2018/11/09 10:36:11887][test.base.TestCaseBase.verifyAppServer(TestCaseBase.java:94)]
+<span class='action'>Testing appserver availability: https://account.talkingdata.com//?backurl=https://www.talkingdata.com&languagetype=zh_cn</span>
+ [DEBUG][2018/11/09 10:36:12544][org.apache.http.impl.conn.BasicClientConnectionManager.getConnection(BasicClientConnectionManager.java:161)]
+Get connection for route {s}->https://account.talkingdata.com:443
+ [DEBUG][2018/11/09 10:36:12891][org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)]
+Connecting to account.talkingdata.com:443
+ [DEBUG][2018/11/09 10:36:13195][org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:123)]
+CookieSpec selected: default
+ [DEBUG][2018/11/09 10:36:13197][org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:77)]
+Auth cache not set in the context
+ [DEBUG][2018/11/09 10:36:13197][org.apache.http.client.protocol.RequestTargetAuthentication.process(RequestTargetAuthentication.java:80)]
+Target auth state: UNCHALLENGED
+ [DEBUG][2018/11/09 10:36:13198][org.apache.http.client.protocol.RequestProxyAuthentication.process(RequestProxyAuthentication.java:89)]
+Proxy auth state: UNCHALLENGED
+ [DEBUG][2018/11/09 10:36:13199][org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:682)]
+Attempt 1 to execute request
+ [DEBUG][2018/11/09 10:36:13199][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:274)]
+Sending request: GET /?backurl=https://www.talkingdata.com&languagetype=zh_cn HTTP/1.1
+ [DEBUG][2018/11/09 10:36:13200][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ >> "GET /?backurl=https://www.talkingdata.com&languagetype=zh_cn HTTP/1.1[\r][\n]"
+ [DEBUG][2018/11/09 10:36:13201][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ >> "Host: account.talkingdata.com[\r][\n]"
+ [DEBUG][2018/11/09 10:36:13202][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ >> "Connection: Keep-Alive[\r][\n]"
+ [DEBUG][2018/11/09 10:36:13202][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]"
+ [DEBUG][2018/11/09 10:36:13203][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ >> "[\r][\n]"
+ [DEBUG][2018/11/09 10:36:13203][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:278)]
+>> GET /?backurl=https://www.talkingdata.com&languagetype=zh_cn HTTP/1.1
+ [DEBUG][2018/11/09 10:36:13204][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)]
+>> Host: account.talkingdata.com
+ [DEBUG][2018/11/09 10:36:13204][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)]
+>> Connection: Keep-Alive
+ [DEBUG][2018/11/09 10:36:13205][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)]
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
+ [DEBUG][2018/11/09 10:36:13241][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ << "HTTP/1.1 200 OK[\r][\n]"
+ [DEBUG][2018/11/09 10:36:13243][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ << "Content-Language: zh-CN[\r][\n]"
+ [DEBUG][2018/11/09 10:36:13243][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ << "Content-Type: text/html;charset=utf-8[\r][\n]"
+ [DEBUG][2018/11/09 10:36:13243][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ << "Date: Fri, 09 Nov 2018 02:36:16 GMT[\r][\n]"
+ [DEBUG][2018/11/09 10:36:13244][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ << "Expires: Thu, 01 Jan 1970 00:00:00 GMT[\r][\n]"
+ [DEBUG][2018/11/09 10:36:13244][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ << "Server: nginx[\r][\n]"
+ [DEBUG][2018/11/09 10:36:13244][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ << "Set-Cookie: i18next=zh_cn;Path=/;Domain=.talkingdata.com;Expires=Fri, 08-Jan-2038 02:36:16 GMT[\r][\n]"
+ [DEBUG][2018/11/09 10:36:13245][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ << "Set-Cookie: SESSION=24986bea-af79-4026-9770-c6898f8571b0;Path=/;HttpOnly[\r][\n]"
+ [DEBUG][2018/11/09 10:36:13245][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+ [DEBUG][2018/11/09 10:36:13245][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ << "Vary: Accept-Encoding[\r][\n]"
+ [DEBUG][2018/11/09 10:36:13245][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ << "Content-Length: 10488[\r][\n]"
+ [DEBUG][2018/11/09 10:36:13246][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ << "Connection: keep-alive[\r][\n]"
+ [DEBUG][2018/11/09 10:36:13246][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ << "[\r][\n]"
+ [DEBUG][2018/11/09 10:36:13247][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:259)]
+Receiving response: HTTP/1.1 200 OK
+ [DEBUG][2018/11/09 10:36:13247][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:262)]
+<< HTTP/1.1 200 OK
+ [DEBUG][2018/11/09 10:36:13249][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)]
+<< Content-Language: zh-CN
+ [DEBUG][2018/11/09 10:36:13249][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)]
+<< Content-Type: text/html;charset=utf-8
+ [DEBUG][2018/11/09 10:36:13249][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)]
+<< Date: Fri, 09 Nov 2018 02:36:16 GMT
+ [DEBUG][2018/11/09 10:36:13250][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)]
+<< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+ [DEBUG][2018/11/09 10:36:13250][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)]
+<< Server: nginx
+ [DEBUG][2018/11/09 10:36:13250][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)]
+<< Set-Cookie: i18next=zh_cn;Path=/;Domain=.talkingdata.com;Expires=Fri, 08-Jan-2038 02:36:16 GMT
+ [DEBUG][2018/11/09 10:36:13251][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)]
+<< Set-Cookie: SESSION=24986bea-af79-4026-9770-c6898f8571b0;Path=/;HttpOnly
+ [DEBUG][2018/11/09 10:36:13251][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)]
+<< Strict-Transport-Security: max-age=31536000
+ [DEBUG][2018/11/09 10:36:13251][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)]
+<< Vary: Accept-Encoding
+ [DEBUG][2018/11/09 10:36:13251][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)]
+<< Content-Length: 10488
+ [DEBUG][2018/11/09 10:36:13253][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)]
+<< Connection: keep-alive
+ [DEBUG][2018/11/09 10:36:13278][org.apache.http.client.protocol.ResponseProcessCookies.processCookies(ResponseProcessCookies.java:119)]
+Cookie accepted [i18next="zh_cn", version:0, domain:talkingdata.com, path:/, expiry:Fri Jan 08 10:36:16 CST 2038]
+ [DEBUG][2018/11/09 10:36:13279][org.apache.http.client.protocol.ResponseProcessCookies.processCookies(ResponseProcessCookies.java:119)]
+Cookie accepted [SESSION="24986bea-af79-4026-9770-c6898f8571b0", version:0, domain:account.talkingdata.com, path:/, expiry:null]
+ [DEBUG][2018/11/09 10:36:13280][org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:509)]
+Connection can be kept alive indefinitely
+ [INFO ][2018/11/09 10:36:13289][test.base.TestCaseBase.verifyAppServer(TestCaseBase.java:110)]
+accessed server successfully: https://account.talkingdata.com//?backurl=https://www.talkingdata.com&languagetype=zh_cn
+ [DEBUG][2018/11/09 10:36:13291][framework.webdriver.WebDriverUtils.launchBrowser(WebDriverUtils.java:37)]
+Create Browser driver for chrome
+ [DEBUG][2018/11/09 10:36:13291][framework.webdriver.WebDriverUtils.launchBrowser(WebDriverUtils.java:41)]
+getting browser driver's name from properties file: chromedriver.exe
+ [DEBUG][2018/11/09 10:36:13400][org.apache.http.impl.conn.DefaultClientConnection.close(DefaultClientConnection.java:180)]
+Connection 0.0.0.0:49814<->52.80.99.47:443 closed
+ [INFO ][2018/11/09 10:36:16287][framework.webdriver.WebDriverUtils.executeJavaScript(WebDriverUtils.java:155)]
+execute Javascript return navigator.userAgent;
+ [DEBUG][2018/11/09 10:36:16320][framework.webdriver.WebDriverUtils.launchBrowser(WebDriverUtils.java:128)]
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+ [DEBUG][2018/11/09 10:36:16334][framework.webdriver.TestNGListener.onTestStart(TestNGListener.java:156)]
+Executing : TestAppSearch-testAppSearch
+ [DEBUG][2018/11/09 10:36:16336][framework.webdriver.TestContext.getProperty(TestContext.java:177)]
+No value found for property grid.Server
+ [DEBUG][2018/11/09 10:36:16430][framework.keyworddriven.util.ExcelUtils.setExcelFile(ExcelUtils.java:33)]
+excel file path: d:/testAppSearch.xlsx
+ [INFO ][2018/11/09 10:36:17553][framework.keyworddriven.util.ExcelUtils.setExcelFile(ExcelUtils.java:37)]
+<font color='green'><b>成功加载测试文件：[ d:/testAppSearch.xlsx ]</b></font>
+ [INFO ][2018/11/09 10:36:17580][framework.keyworddriven.executionengine.ExecutionEngine.executeTestCase(ExecutionEngine.java:79)]
+<font color='#76E11F'><h3> >>>开始执行测试用例 - [ Login ]<<< </h3></font> </br>
+ [WARN ][2018/11/09 10:36:17582][framework.keyworddriven.util.KeywordDrivenUtil.skipTestStep(KeywordDrivenUtil.java:256)]
+<span class='warn'>步骤：[ 导航到登录页面 ] 未找到关键字或未设置关键字，该步骤被跳过，请检查... </span>
+ [INFO ][2018/11/09 10:36:18222][framework.keyworddriven.BaseKeywords.endTestCase(BaseKeywords.java:1741)]
+<span class='action'>---------当前测试用例执行完成---------</span>
+ [INFO ][2018/11/09 10:36:18225][classic.pages.AbstractBasePage.report(AbstractBasePage.java:428)]
+<font size='4' color='blue'><b>测试结果：</b></font><font size='4' color='green'><i>PASSED</i></font>
+ [INFO ][2018/11/09 10:36:18238][framework.keyworddriven.executionengine.ExecutionEngine.executeTestCase(ExecutionEngine.java:79)]
+<font color='#76E11F'><h3> >>>开始执行测试用例 - [ 应用概览 ]<<< </h3></font> </br>
+ [DEBUG][2018/11/09 10:36:18247][framework.keyworddriven.executionengine.ExecutionEngine.executeKeywords(ExecutionEngine.java:179)]
+执行关键字：findAndInput
+ [INFO ][2018/11/09 10:36:18248][framework.keyworddriven.BaseKeywords.stepInfo(BaseKeywords.java:80)]
+<span class='step'>Step1. 搜索test_sdk应用</span>
+ [DEBUG][2018/11/09 10:36:18251][classic.pages.AbstractBasePage.getElements(AbstractBasePage.java:107)]
+<span class='data'>根据元素Xpath查找元素：[ xpath=//*[@id="app"]/div[2]/div[1]/div[1]/input ]</span>
+ [DEBUG][2018/11/09 10:36:18274][classic.pages.AbstractBasePage.waitForAjaxComplete(AbstractBasePage.java:401)]
+waitForAjaxComplete
+ [INFO ][2018/11/09 10:36:18274][framework.webdriver.WebDriverUtils.executeJavaScript(WebDriverUtils.java:155)]
+execute Javascript return ajaxInProgressIndicator;
+ [DEBUG][2018/11/09 10:36:18319][classic.pages.AbstractBasePage.waitForAjaxComplete(AbstractBasePage.java:410)]
+waitForAjaxComplete elapsed time 45 (ms)
+ [DEBUG][2018/11/09 10:36:18320][classic.pages.AbstractBasePage.waitUntilElements(AbstractBasePage.java:261)]
+waitUntilElements By.xpath: //*[@id="app"]/div[2]/div[1]/div[1]/input
+ [DEBUG][2018/11/09 10:36:18395][classic.pages.AbstractBasePage.waitUntilElements(AbstractBasePage.java:278)]
+found element: By.xpath: //*[@id="app"]/div[2]/div[1]/div[1]/input , time elapsed: 75 (ms) ms.
+ [DEBUG][2018/11/09 10:36:18752][framework.webdriver.TestContext.captureScreen(TestContext.java:247)]
+Capturing screenshot '失败截图' to D:\workspaces\framework-parent\framework-app\target\test_reports\screenshots\0-TestAppSearch-testAppSearch.png
+ [INFO ][2018/11/09 10:36:18764][framework.webdriver.TestContext.captureScreen(TestContext.java:268)]
+<a href="D:\workspaces\framework-parent\framework-app\target\test_reports\screenshots/0-TestAppSearch-testAppSearch.png" ><font color='#A5A52E' size='5'><b><i>失败截图</i></b></font> </a>
+ [INFO ][2018/11/09 10:36:18772][framework.keyworddriven.util.KeywordDrivenUtil.isReRunTimesLeft(KeywordDrivenUtil.java:322)]
+<span class='action'>当前步骤执行失败，将执行关键字[ findAndInput ]重跑此步骤. 当前重跑第 [ 0 ] 次, 可重跑[ 2 ]次.</span>
+ [DEBUG][2018/11/09 10:36:18778][framework.keyworddriven.executionengine.ExecutionEngine.executeKeywords(ExecutionEngine.java:179)]
+执行关键字：findAndInput
+ [DEBUG][2018/11/09 10:36:18799][classic.pages.AbstractBasePage.getElements(AbstractBasePage.java:107)]
+<span class='data'>根据元素Xpath查找元素：[ xpath=//*[@id="app"]/div[2]/div[1]/div[1]/input ]</span>
+ [DEBUG][2018/11/09 10:36:18844][classic.pages.AbstractBasePage.waitForAjaxComplete(AbstractBasePage.java:401)]
+waitForAjaxComplete
+ [INFO ][2018/11/09 10:36:18844][framework.webdriver.WebDriverUtils.executeJavaScript(WebDriverUtils.java:155)]
+execute Javascript return ajaxInProgressIndicator;
+ [DEBUG][2018/11/09 10:36:18855][classic.pages.AbstractBasePage.waitForAjaxComplete(AbstractBasePage.java:410)]
+waitForAjaxComplete elapsed time 11 (ms)
+ [DEBUG][2018/11/09 10:36:18856][classic.pages.AbstractBasePage.waitUntilElements(AbstractBasePage.java:261)]
+waitUntilElements By.xpath: //*[@id="app"]/div[2]/div[1]/div[1]/input
+ [DEBUG][2018/11/09 10:36:18876][classic.pages.AbstractBasePage.waitUntilElements(AbstractBasePage.java:278)]
+found element: By.xpath: //*[@id="app"]/div[2]/div[1]/div[1]/input , time elapsed: 20 (ms) ms.
+ [INFO ][2018/11/09 10:36:18880][framework.keyworddriven.util.KeywordDrivenUtil.isReRunTimesLeft(KeywordDrivenUtil.java:322)]
+<span class='action'>当前步骤执行失败，将执行关键字[ findAndInput ]重跑此步骤. 当前重跑第 [ 1 ] 次, 可重跑[ 2 ]次.</span>
+ [DEBUG][2018/11/09 10:36:18882][framework.keyworddriven.executionengine.ExecutionEngine.executeKeywords(ExecutionEngine.java:179)]
+执行关键字：findAndInput
+ [DEBUG][2018/11/09 10:36:18883][classic.pages.AbstractBasePage.getElements(AbstractBasePage.java:107)]
+<span class='data'>根据元素Xpath查找元素：[ xpath=//*[@id="app"]/div[2]/div[1]/div[1]/input ]</span>
+ [DEBUG][2018/11/09 10:36:18936][classic.pages.AbstractBasePage.waitForAjaxComplete(AbstractBasePage.java:401)]
+waitForAjaxComplete
+ [INFO ][2018/11/09 10:36:18937][framework.webdriver.WebDriverUtils.executeJavaScript(WebDriverUtils.java:155)]
+execute Javascript return ajaxInProgressIndicator;
+ [DEBUG][2018/11/09 10:36:18947][classic.pages.AbstractBasePage.waitForAjaxComplete(AbstractBasePage.java:410)]
+waitForAjaxComplete elapsed time 10 (ms)
+ [DEBUG][2018/11/09 10:36:18948][classic.pages.AbstractBasePage.waitUntilElements(AbstractBasePage.java:261)]
+waitUntilElements By.xpath: //*[@id="app"]/div[2]/div[1]/div[1]/input
+ [DEBUG][2018/11/09 10:36:18965][classic.pages.AbstractBasePage.waitUntilElements(AbstractBasePage.java:278)]
+found element: By.xpath: //*[@id="app"]/div[2]/div[1]/div[1]/input , time elapsed: 17 (ms) ms.
+ [INFO ][2018/11/09 10:36:18967][framework.keyworddriven.util.KeywordDrivenUtil.isReRunTimesLeft(KeywordDrivenUtil.java:322)]
+<span class='action'>当前步骤执行失败，将执行关键字[ findAndInput ]重跑此步骤. 当前重跑第 [ 2 ] 次, 可重跑[ 2 ]次.</span>
+ [DEBUG][2018/11/09 10:36:18968][framework.keyworddriven.executionengine.ExecutionEngine.executeKeywords(ExecutionEngine.java:179)]
+执行关键字：findAndInput
+ [DEBUG][2018/11/09 10:36:18969][classic.pages.AbstractBasePage.getElements(AbstractBasePage.java:107)]
+<span class='data'>根据元素Xpath查找元素：[ xpath=//*[@id="app"]/div[2]/div[1]/div[1]/input ]</span>
+ [DEBUG][2018/11/09 10:36:18979][classic.pages.AbstractBasePage.waitForAjaxComplete(AbstractBasePage.java:401)]
+waitForAjaxComplete
+ [INFO ][2018/11/09 10:36:18979][framework.webdriver.WebDriverUtils.executeJavaScript(WebDriverUtils.java:155)]
+execute Javascript return ajaxInProgressIndicator;
+ [DEBUG][2018/11/09 10:36:18991][classic.pages.AbstractBasePage.waitForAjaxComplete(AbstractBasePage.java:410)]
+waitForAjaxComplete elapsed time 12 (ms)
+ [DEBUG][2018/11/09 10:36:18991][classic.pages.AbstractBasePage.waitUntilElements(AbstractBasePage.java:261)]
+waitUntilElements By.xpath: //*[@id="app"]/div[2]/div[1]/div[1]/input
+ [DEBUG][2018/11/09 10:36:195  ][classic.pages.AbstractBasePage.waitUntilElements(AbstractBasePage.java:278)]
+found element: By.xpath: //*[@id="app"]/div[2]/div[1]/div[1]/input , time elapsed: 14 (ms) ms.
+ [ERROR][2018/11/09 10:36:197  ][framework.keyworddriven.executionengine.ExecutionEngine.executeKeywords(ExecutionEngine.java:205)]
+<span class='error'>步骤：[搜索test_sdk应用] 重跑 3 次后失败...</span>
+ [INFO ][2018/11/09 10:36:19325][framework.keyworddriven.BaseKeywords.endTestCase(BaseKeywords.java:1741)]
+<span class='action'>---------当前测试用例执行完成---------</span>
+ [INFO ][2018/11/09 10:36:19325][classic.pages.AbstractBasePage.report(AbstractBasePage.java:428)]
+<font size='4' color='blue'><b>测试结果：</b></font><font size='4' color='red'><i>FAILED</i></font>
+ [INFO ][2018/11/09 10:36:19340][framework.webdriver.TestNGListener.afterInvocation(TestNGListener.java:412)]
+FAILED    : TestAppSearch-testAppSearch
+ [DEBUG][2018/11/09 10:36:19652][framework.webdriver.TestContext.captureScreen(TestContext.java:247)]
+Capturing screenshot '失败截图' to D:\workspaces\framework-parent\framework-app\target\test_reports\screenshots\1-TestAppSearch-testAppSearch.png
+ [INFO ][2018/11/09 10:36:19657][framework.webdriver.TestContext.captureScreen(TestContext.java:268)]
+<a href="D:\workspaces\framework-parent\framework-app\target\test_reports\screenshots/1-TestAppSearch-testAppSearch.png" ><font color='#A5A52E' size='5'><b><i>失败截图</i></b></font> </a>
+ [DEBUG][2018/11/09 10:36:19668][framework.webdriver.TestContext.saveDOM(TestContext.java:281)]
+Capturing DOM state to TestAppSearch-testAppSearch-DOM.txt
+ [INFO ][2018/11/09 10:36:19670][framework.webdriver.TestContext.saveDOM(TestContext.java:289)]
+<a href="TestAppSearch-testAppSearch-DOM.txt">DOM Capture</a>
+ [DEBUG][2018/11/09 10:36:19671][framework.webdriver.TestContext.getProperty(TestContext.java:177)]
+No value found for property grid.Server
+ [DEBUG][2018/11/09 10:36:19671][framework.webdriver.TestContext.getProperty(TestContext.java:177)]
+No value found for property grid.Server
+ [DEBUG][2018/11/09 10:36:19957][framework.webdriver.TestContext.captureScreen(TestContext.java:247)]
+Capturing screenshot '失败截图  ' to D:\workspaces\framework-parent\framework-app\target\test_reports\screenshots\2-TestAppSearch-testAppSearch.png
+ [INFO ][2018/11/09 10:36:19961][framework.webdriver.TestContext.captureScreen(TestContext.java:268)]
+<a href="D:\workspaces\framework-parent\framework-app\target\test_reports\screenshots/2-TestAppSearch-testAppSearch.png" ><font color='#A5A52E' size='5'><b><i>失败截图  </i></b></font> </a>
+ [INFO ][2018/11/09 10:36:19962][base.AATestBase.endOfTesting(AATestBase.java:55)]
+--CLASS WILL CLEANUP--
+ [INFO ][2018/11/09 10:36:19963][test.base.TestCaseBase.logout(TestCaseBase.java:151)]
+Logout
+ [INFO ][2018/11/09 10:36:20893][test.base.TestCaseBase.logout(TestCaseBase.java:159)]
+Logout complete
+ 

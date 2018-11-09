@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <listeners>
+  	<listener class-name="webdriver.TestNGListener"></listener>
+  </listeners>
+  <test name="Test">
+	  	<groups>
+	  		<run>
+	  			<include name="smoke"></include>
+	  			<include name="regression"></include>
+	  		</run>
+	  	</groups>
+	    <classes>
+	    	<!-- <class name="smoke.TestCreateAppSmoke"></class> -->
+	    	<class name="smoke.TestBasicTuiGuanHuoDong"></class>
+	    </classes>
+	</test>
+</suite>

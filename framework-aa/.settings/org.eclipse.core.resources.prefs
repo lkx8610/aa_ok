@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/main/resources/api-conf/request.properties=UTF-8
+encoding//src/main/resources/conf/192.168.234.129-firefox.properties=UTF-8
+encoding//src/main/resources/conf/192.168.64.134-chrome.properties=UTF-8
+encoding//src/main/resources/conf/framework.properties=UTF-8
+encoding//src/main/resources/conf/local.properties=UTF-8
+encoding//src/main/resources/log4j.properties=UTF-8
+encoding//src/test/java=UTF-8
+encoding//src/test/resources=UTF-8
+encoding//test_reports/index.html=UTF-8
+encoding/<project>=UTF-8

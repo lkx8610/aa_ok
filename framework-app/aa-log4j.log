@@ -1,0 +1,247 @@
+[DEBUG][2018/11/08 19:49:04290][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:129)]
+Loading local.properties
+ [DEBUG][2018/11/08 19:49:04293][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:131)]
+Loaded local.properties successfully.
+ [DEBUG][2018/11/08 19:49:04294][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+api_testcase_location=
+ [DEBUG][2018/11/08 19:49:04295][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+report.dir=test_reports/
+ [DEBUG][2018/11/08 19:49:04295][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+login.user=haisuper@163.com
+ [DEBUG][2018/11/08 19:49:04295][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+grid.server=192.168.64.134:8888
+ [DEBUG][2018/11/08 19:49:04296][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+browser.driver.path=browser-drivers
+ [DEBUG][2018/11/08 19:49:04296][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+logReportFile=DEBUG
+ [DEBUG][2018/11/08 19:49:04296][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+server.login.address=debugAccount/?backurl=https://debug.talkingdata.com&languagetype=zh_cn
+ [DEBUG][2018/11/08 19:49:04297][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+server.base.address=https://debug.talkingdata.com
+ [DEBUG][2018/11/08 19:49:04297][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+closeBowserOnEnd=true
+ [DEBUG][2018/11/08 19:49:04297][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+waitDomTimeout=20000
+ [DEBUG][2018/11/08 19:49:04298][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+dataDriven_file_path=
+ [DEBUG][2018/11/08 19:49:04298][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+openTestReportOnEnd=true
+ [DEBUG][2018/11/08 19:49:04299][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+isVerifyServerStateFirst=false
+ [DEBUG][2018/11/08 19:49:04299][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+screenshot.dir=test_reports/screenshots/
+ [DEBUG][2018/11/08 19:49:04299][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+reRunCountOnFailure=2
+ [DEBUG][2018/11/08 19:49:04300][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+waitAjaxTimeout=20000
+ [DEBUG][2018/11/08 19:49:04300][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+login.password=Gzh123456
+ [DEBUG][2018/11/08 19:49:04300][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+browser.driver.name=chromedriver.exe
+ [DEBUG][2018/11/08 19:49:04301][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+isMaximizeBrowserWindow=true
+ [DEBUG][2018/11/08 19:49:04301][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+ui_testcase_location=
+ [DEBUG][2018/11/08 19:49:04302][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+browser.type=chrome
+ [DEBUG][2018/11/08 19:49:04302][framework.webdriver.TestNGListener.loadProperties(TestNGListener.java:147)]
+detailedReportLevel=info
+ [INFO ][2018/11/08 19:49:04346][test.base.TestCaseBase.verifyAppServer(TestCaseBase.java:94)]
+<span class='action'>Testing appserver availability: https://debug.talkingdata.com/debugAccount/?backurl=https://debug.talkingdata.com&languagetype=zh_cn</span>
+ [DEBUG][2018/11/08 19:49:05133][org.apache.http.impl.conn.BasicClientConnectionManager.getConnection(BasicClientConnectionManager.java:161)]
+Get connection for route {s}->https://debug.talkingdata.com:443
+ [DEBUG][2018/11/08 19:49:05229][org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)]
+Connecting to debug.talkingdata.com:443
+ [DEBUG][2018/11/08 19:49:05490][org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:123)]
+CookieSpec selected: default
+ [DEBUG][2018/11/08 19:49:05493][org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:77)]
+Auth cache not set in the context
+ [DEBUG][2018/11/08 19:49:05494][org.apache.http.client.protocol.RequestTargetAuthentication.process(RequestTargetAuthentication.java:80)]
+Target auth state: UNCHALLENGED
+ [DEBUG][2018/11/08 19:49:05495][org.apache.http.client.protocol.RequestProxyAuthentication.process(RequestProxyAuthentication.java:89)]
+Proxy auth state: UNCHALLENGED
+ [DEBUG][2018/11/08 19:49:05495][org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:682)]
+Attempt 1 to execute request
+ [DEBUG][2018/11/08 19:49:05496][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:274)]
+Sending request: GET /debugAccount/?backurl=https://debug.talkingdata.com&languagetype=zh_cn HTTP/1.1
+ [DEBUG][2018/11/08 19:49:05496][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ >> "GET /debugAccount/?backurl=https://debug.talkingdata.com&languagetype=zh_cn HTTP/1.1[\r][\n]"
+ [DEBUG][2018/11/08 19:49:05498][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ >> "Host: debug.talkingdata.com[\r][\n]"
+ [DEBUG][2018/11/08 19:49:05498][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ >> "Connection: Keep-Alive[\r][\n]"
+ [DEBUG][2018/11/08 19:49:05498][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]"
+ [DEBUG][2018/11/08 19:49:05499][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ >> "[\r][\n]"
+ [DEBUG][2018/11/08 19:49:05499][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:278)]
+>> GET /debugAccount/?backurl=https://debug.talkingdata.com&languagetype=zh_cn HTTP/1.1
+ [DEBUG][2018/11/08 19:49:05499][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)]
+>> Host: debug.talkingdata.com
+ [DEBUG][2018/11/08 19:49:05499][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)]
+>> Connection: Keep-Alive
+ [DEBUG][2018/11/08 19:49:05500][org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281)]
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
+ [DEBUG][2018/11/08 19:49:05520][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ << "HTTP/1.1 200 OK[\r][\n]"
+ [DEBUG][2018/11/08 19:49:05523][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ << "Server: nginx/1.12.1[\r][\n]"
+ [DEBUG][2018/11/08 19:49:05523][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ << "Date: Thu, 08 Nov 2018 11:49:08 GMT[\r][\n]"
+ [DEBUG][2018/11/08 19:49:05523][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ << "Content-Type: text/html;charset=utf-8[\r][\n]"
+ [DEBUG][2018/11/08 19:49:05524][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ << "Content-Length: 10618[\r][\n]"
+ [DEBUG][2018/11/08 19:49:05524][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ << "Connection: keep-alive[\r][\n]"
+ [DEBUG][2018/11/08 19:49:05525][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ << "Vary: Accept-Encoding[\r][\n]"
+ [DEBUG][2018/11/08 19:49:05525][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ << "Set-Cookie: i18next=zh_cn;Path=/;Domain=.talkingdata.com;Expires=Thu, 07-Jan-2038 11:49:08 GMT[\r][\n]"
+ [DEBUG][2018/11/08 19:49:05525][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ << "Expires: Thu, 01 Jan 1970 00:00:00 GMT[\r][\n]"
+ [DEBUG][2018/11/08 19:49:05526][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ << "Content-Language: zh-CN[\r][\n]"
+ [DEBUG][2018/11/08 19:49:05526][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ << "Set-Cookie: SESSION=ef611bdd-5b68-43c9-93d3-528e64e9733b;Path=/debugAccount/;HttpOnly[\r][\n]"
+ [DEBUG][2018/11/08 19:49:05526][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+ [DEBUG][2018/11/08 19:49:05527][org.apache.http.impl.conn.Wire.wire(Wire.java:73)]
+ << "[\r][\n]"
+ [DEBUG][2018/11/08 19:49:05528][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:259)]
+Receiving response: HTTP/1.1 200 OK
+ [DEBUG][2018/11/08 19:49:05528][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:262)]
+<< HTTP/1.1 200 OK
+ [DEBUG][2018/11/08 19:49:05529][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)]
+<< Server: nginx/1.12.1
+ [DEBUG][2018/11/08 19:49:05529][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)]
+<< Date: Thu, 08 Nov 2018 11:49:08 GMT
+ [DEBUG][2018/11/08 19:49:05529][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)]
+<< Content-Type: text/html;charset=utf-8
+ [DEBUG][2018/11/08 19:49:05529][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)]
+<< Content-Length: 10618
+ [DEBUG][2018/11/08 19:49:05530][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)]
+<< Connection: keep-alive
+ [DEBUG][2018/11/08 19:49:05530][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)]
+<< Vary: Accept-Encoding
+ [DEBUG][2018/11/08 19:49:05530][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)]
+<< Set-Cookie: i18next=zh_cn;Path=/;Domain=.talkingdata.com;Expires=Thu, 07-Jan-2038 11:49:08 GMT
+ [DEBUG][2018/11/08 19:49:05530][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)]
+<< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+ [DEBUG][2018/11/08 19:49:05531][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)]
+<< Content-Language: zh-CN
+ [DEBUG][2018/11/08 19:49:05531][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)]
+<< Set-Cookie: SESSION=ef611bdd-5b68-43c9-93d3-528e64e9733b;Path=/debugAccount/;HttpOnly
+ [DEBUG][2018/11/08 19:49:05531][org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265)]
+<< Strict-Transport-Security: max-age=31536000
+ [DEBUG][2018/11/08 19:49:05545][org.apache.http.client.protocol.ResponseProcessCookies.processCookies(ResponseProcessCookies.java:119)]
+Cookie accepted [i18next="zh_cn", version:0, domain:talkingdata.com, path:/, expiry:Thu Jan 07 19:49:08 CST 2038]
+ [DEBUG][2018/11/08 19:49:05546][org.apache.http.client.protocol.ResponseProcessCookies.processCookies(ResponseProcessCookies.java:119)]
+Cookie accepted [SESSION="ef611bdd-5b68-43c9-93d3-528e64e9733b", version:0, domain:debug.talkingdata.com, path:/debugAccount/, expiry:null]
+ [DEBUG][2018/11/08 19:49:05548][org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:509)]
+Connection can be kept alive indefinitely
+ [INFO ][2018/11/08 19:49:05556][test.base.TestCaseBase.verifyAppServer(TestCaseBase.java:110)]
+accessed server successfully: https://debug.talkingdata.com/debugAccount/?backurl=https://debug.talkingdata.com&languagetype=zh_cn
+ [DEBUG][2018/11/08 19:49:05558][framework.webdriver.WebDriverUtils.launchBrowser(WebDriverUtils.java:37)]
+Create Browser driver for chrome
+ [DEBUG][2018/11/08 19:49:05558][framework.webdriver.WebDriverUtils.launchBrowser(WebDriverUtils.java:41)]
+getting browser driver's name from properties file: chromedriver.exe
+ [DEBUG][2018/11/08 19:49:05798][org.apache.http.impl.conn.DefaultClientConnection.close(DefaultClientConnection.java:180)]
+Connection 0.0.0.0:57880<->124.250.44.106:443 closed
+ [ERROR][2018/11/08 19:49:27187][framework.webdriver.TestNGListener.afterInvocation(TestNGListener.java:427)]
+org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'EDZ-20180329MIP', ip: '192.168.44.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver
+ org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'EDZ-20180329MIP', ip: '192.168.44.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:564)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:143)
+	at framework.webdriver.WebDriverUtils.sartGrid(WebDriverUtils.java:140)
+	at framework.webdriver.WebDriverUtils.launchBrowser(WebDriverUtils.java:111)
+	at base.AATestBase.createBrowser(AATestBase.java:42)
+	at test.base.TestCaseBase.startOfTesting(TestCaseBase.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: java.net.ConnectException: Failed to connect to /192.168.64.134:8888
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:240)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:158)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:256)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:134)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:113)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:105)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:101)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	... 31 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:125)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:238)
+	... 53 more
+[DEBUG][2018/11/08 19:49:27202][framework.webdriver.TestNGListener.onTestStart(TestNGListener.java:156)]
+Executing : TestAppSearch-testAppSearch
+ [DEBUG][2018/11/08 19:49:27204][framework.webdriver.TestContext.getProperty(TestContext.java:177)]
+No value found for property grid.Server
+ [INFO ][2018/11/08 19:49:27209][framework.webdriver.TestNGListener.logTestDocumentation(TestNGListener.java:189)]
+<table cellspacing=0 cellpadding=4 border=1 bordercolor=#289C23 width=100%><tr><th width='200px' style='white-space: nowrap' >测试用例书写日期 : </th><td></td></tr><tr><th width='200px' style='white-space: nowrap'>本用例测试目标: </th><td>测试应用的查询功能：精确查询 + 模糊查询 + 无符合条件的记录...</td></tr><tr><th width='100px' style='white-space: nowrap'>测试用例 ID: </th><td>T497088 </td></tr></table>
+ [INFO ][2018/11/08 19:49:27219][framework.webdriver.TestNGListener.afterInvocation(TestNGListener.java:412)]
+SKIPPED   : TestAppSearch-testAppSearch
+ [WARN ][2018/11/08 19:49:27220][framework.webdriver.TestContext.captureScreen(TestContext.java:255)]
+This WebDriver instance does not implement the TakeScreenshot interface
+ [DEBUG][2018/11/08 19:49:27222][framework.webdriver.TestContext.getProperty(TestContext.java:177)]
+No value found for property grid.Server
+ [DEBUG][2018/11/08 19:49:27222][framework.webdriver.TestContext.getProperty(TestContext.java:177)]
+No value found for property grid.Server
+ [INFO ][2018/11/08 19:49:27223][framework.webdriver.TestNGListener.onTestSkipped(TestNGListener.java:612)]
+testAppSearch Skipped
+ [INFO ][2018/11/08 19:49:27225][base.AATestBase.endOfTesting(AATestBase.java:55)]
+--CLASS WILL CLEANUP--
+ 
